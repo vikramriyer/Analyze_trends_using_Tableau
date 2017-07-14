@@ -29,6 +29,12 @@ Now let me go into the details of each of the story points:
 
 6. We go a step further to deduce that, the death rate for people from class3 and from Southampton was considerable higher, whereas the death rate for people from class1 was lower or proportionally less. The people from class1 fared well irrespective of the places they embarked from.
 
+__Calculated fields__
+1. **Ages**: Since there were some null values, I converted them to 0's and created a new field.
+2. **Family members**: Since there were Sip Sp and Parch as different fields, I decided to better keep one field which had all the data about the family members, hence this field is, Sib Sp + Parch
+3. **Has Dependents**: In case a person has number of dependents > 0, then the field is 'Yes' else 'No', almost like a boolean
+4. **Has Family Members**: In case a person has number of Family Members > 0, then the field is 'Yes' else 'No', almost like a boolean
+
 ## Feedback
 I received feedback about my viz from 2 people. Below were some of points they mentioned and I incorporated the changes accordingly
 
